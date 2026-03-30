@@ -1,0 +1,34 @@
+* {
+    font-family: "DotGothic16";
+    color:#F9F6EE;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background: #302c41;
+    
+}
+.dotgothic16-regular {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header{
+    display: flexbox;
+    background: #0e0c14;
+    margin: 0;
+    height: 50px;
+    text-align: center;
+}
+
+.home{
+    display: flex;
+    height: 400px;
+}
+.right{
+    padding-left: 100px;
+    order:1
+}
+

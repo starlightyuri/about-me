@@ -4,15 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="home"> <!--home-->
-        <h1>Kalya | SYuri</h1>
-        <p>intp | '10 | jan 21</p>
-        <p>a high schooler that likes pixels. does debate and struggle with competitive programming</p>
-        <img src="img/placeholder.jpg" alt="">
+    <div class="header">
+        <div class="hl">
+            <a href="home">Home</a>
+            <a href="portofolio">Portofolio</a>
+            <a href="links">Links</a>
+        </div>
+        <div class="hr">
+            <label for="change to en">EN</label>
+            <label for="change to JP">JP</label>
+        </div>
     </div>
-    <div id="portofolio"> <!--portofolio-->
+
+    <div class="home"> <!--home-->
+        <div class="left">
+            <img src="img/pfp.png" alt="profile image" height="400px">
+        </div>
+        <div class="right">
+            <h1>Kalya | SYuri</h1>
+            <h3>Highschool Student</h3>
+            <p>I like pixels and computers although I struggle with competitive programming.
+                I also do competitive debating. 
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M23 9v6h-1v2h-1v2h-1v1h-1v1h-1v1h-2v1h-1v-5h-1v-1h1v-1h2v-1h1v-1h1V9h-1V6h-2v1h-1v1h-1V7h-4v1H9V7H8V6H6v3H5v5h1v1h1v1h2v2H7v-1H6v-1H4v1h1v2h1v1h3v3H8v-1H6v-1H5v-1H4v-1H3v-2H2v-2H1V9h1V7h1V5h1V4h1V3h2V2h2V1h6v1h2v1h2v1h1v1h1v2h1v2z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M17 9V8h-1V7h-1V6H9v1H8v1H7v1H6v6h1v1h1v1h1v1h6v-1h1v-1h1v-1h1V9zm-1 5h-1v1h-1v1h-4v-1H9v-1H8v-4h1V9h1V8h4v1h1v1h1z"/><path fill="currentColor" d="M22 5V3h-1V2h-2V1H5v1H3v1H2v2H1v14h1v2h1v1h2v1h14v-1h2v-1h1v-2h1V5zm-1 14h-1v1h-1v1H5v-1H4v-1H3V5h1V4h1V3h14v1h1v1h1z"/><path fill="currentColor" d="M17 5h2v2h-2z"/></svg>
+        </div>
+    </div>
+
+    <div class="portofolio"> <!--portofolio-->
         <h2>Informatics</h2>
         <ul>
             <li>OSN-P Informatika Participant (2025)</li>
@@ -29,10 +54,6 @@
             <li>JLPT N1 (2022)</li>
             <li>Pixel Art (see gallery)</li> <!--add gallery tab later-->
         </ul>
-    </div>
-    <div id="links">
-        <h1>Links</h1>
-        insta github wishlist   
-    </div>
+
 </body>
 </html>
