@@ -12,6 +12,9 @@
     
 }
 
+html {
+    scroll-behavior: smooth;
+}
 .dotgothic16-regular {
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
@@ -38,6 +41,7 @@ body {
 
 section {
     padding: 20px;
+    scroll-margin-top: 70px;
 }
 
 #header {
